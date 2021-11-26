@@ -20,7 +20,7 @@ left: 50%;
    background-color: rgb(180,180,180);
      width: 760px;
      margin: 0 auto;
-     margin-top: 150px;
+     margin-top: 100px;
      text-align: center;
  }
  .about{
@@ -51,6 +51,7 @@ left: 50%;
      font-size:15px;
      height:60px;
      padding-top: 5px;
+     margin-top: 100px;
  }
 .parallax {
   /* The image used */
@@ -261,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
             padding: 0;
             max-width: 300px;
             margin-left:40vw;;
-            margin-top: 100px;
+            margin-top: 150px;
             position:relative;
           }
 
@@ -287,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
             padding-right: 12px;
             font-variant-numeric: tabular-nums;
             align-self: flex-start;
-            background-image: linear-gradient(to bottom, aquamarine, orangered);
+            background-image: linear-gradient(to bottom, orange, black);
             background-attachment: fixed;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -298,24 +299,6 @@ h1, h2, h3, h4, h5, h6 {
           .grad1 + .grad1 {
             border-top: 3px solid rgba(255,255,255,0.2);
           }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           @use postcss-preset-env {
