@@ -5,15 +5,21 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+   <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+   <script src='https://cdn.plot.ly/plotly-2.6.3.min.js'></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+   <script src="../src/views/mapscript.js"></script>
+         <script src="https://cdn.plot.ly/plotly-latest.js"></script>
+
 </head>
 <nav class="navbar navbar-inverse  navbar-fixed-top">
   <div class="container-fluid1">
@@ -24,31 +30,9 @@
       <li><a href="../build/about.html">About</a></li>
       <li><a href="../build/index.html">Index</a></li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bronx
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          
-          <li><a href="../build/Greenwich_Village.html"> Greenwich_Village </a></li>
-          
-          <li><a href="../build/Lower_East_Side.html"> Lower_East_Side </a></li>
-          
-          <li><a href="../build/Chelsea_Clinton.html"> Chelsea_Clinton </a></li>
-          
-          <li><a href="../build/Midtown_Business_District.html"> Midtown_Business_District </a></li>
-          
-          <li><a href="../build/Murray_Hill_Stuyvesant.html"> Murray_Hill_Stuyvesant </a></li>
-          
-          <li><a href="../build/Upper_West_Side.html"> Upper_West_Side </a></li>
-          
-          <li><a href="../build/Upper_East_Side.html"> Upper_East_Side </a></li>
-          
-          <li><a href="../build/Manhattanville.html"> Manhattanville </a></li>
-          
-          <li><a href="../build/Central_Harlem.html"> Central_Harlem </a></li>
-          
-          <li><a href="../build/East_Harlem.html"> East_Harlem </a></li>
-          
-          <li><a href="../build/Washington_Heights.html"> Washington_Heights </a></li>
           
           <li><a href="../build/Mott_Haven.html"> Mott_Haven </a></li>
           
@@ -72,11 +56,18 @@
           
           <li><a href="../build/Pelham_Parkway.html"> Pelham_Parkway </a></li>
           
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brooklyn
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
           <li><a href="../build/Williamsbridge.html"> Williamsbridge </a></li>
           
           <li><a href="../build/Williamsburg_Greenpoint.html"> Williamsburg_Greenpoint </a></li>
           
-          <li><a href="../build/Fort Green_Brooklyn Hts.html"> Fort Green_Brooklyn Hts </a></li>
+          <li><a href="../build/Fort Greene Brooklyn Hts.html"> Fort Greene Brooklyn Hts </a></li>
           
           <li><a href="../build/Bedford_Stuyvesant.html"> Bedford_Stuyvesant </a></li>
           
@@ -110,6 +101,44 @@
           
           <li><a href="../build/Canarsie.html"> Canarsie </a></li>
           
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Manhattan
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="../build/Battery_Park_Tribeca.html"> Battery_Park_Tribeca </a></li>
+          
+          <li><a href="../build/Greenwich_Village.html"> Greenwich_Village </a></li>
+          
+          <li><a href="../build/Lower_East_Side.html"> Lower_East_Side </a></li>
+          
+          <li><a href="../build/Chelsea_Clinton.html"> Chelsea_Clinton </a></li>
+          
+          <li><a href="../build/Midtown_Business_District.html"> Midtown_Business_District </a></li>
+          
+          <li><a href="../build/Murray_Hill_Stuyvesant.html"> Murray_Hill_Stuyvesant </a></li>
+          
+          <li><a href="../build/Upper_West_Side.html"> Upper_West_Side </a></li>
+          
+          <li><a href="../build/Upper_East_Side.html"> Upper_East_Side </a></li>
+          
+          <li><a href="../build/Manhattanville.html"> Manhattanville </a></li>
+          
+          <li><a href="../build/Central_Harlem.html"> Central_Harlem </a></li>
+          
+          <li><a href="../build/East_Harlem.html"> East_Harlem </a></li>
+          
+          <li><a href="../build/Washington_Heights.html"> Washington_Heights </a></li>
+          
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Queens
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
           <li><a href="../build/Astoria.html"> Astoria </a></li>
           
           <li><a href="../build/Sunnyside_Woodside.html"> Sunnyside_Woodside </a></li>
@@ -135,6 +164,15 @@
           <li><a href="../build/Jamaica_St._Albans.html"> Jamaica_St._Albans </a></li>
           
           <li><a href="../build/Queens_Village.html"> Queens_Village </a></li>
+          
+          <li><a href="../build/The_Rockaways.html"> The_Rockaways </a></li>
+          
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Staten Island
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
           
           <li><a href="../build/The_Rockaways.html"> The_Rockaways </a></li>
           
@@ -186,8 +224,7 @@
     </table>
   </section>
 
-
-</body>
+<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
 <p class="text-center text-muted shift">This is my awesome, dynamically inserted footer! Data from the <a href="https://data.cccnewyork.org/data/map/66/median-incomes#66/39/6/107/62/a/a">CCC</a></p>
 
 </html>
