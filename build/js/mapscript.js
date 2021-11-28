@@ -1,4 +1,4 @@
-d3.json('http://localhost:300/Commuting.json', function(err, rows){
+d3.json('https://austinlara22.github.io/data/Commuting.json', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) { return row[key]; });
       }
