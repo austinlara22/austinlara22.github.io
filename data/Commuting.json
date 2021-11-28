@@ -1,0 +1,602 @@
+[
+  {
+    "location": "Location",
+    "Travel Time": "Travel Time",
+    "year": "TimeFrame",
+    "data format": "DataFormat",
+    "data": "Data",
+    "fips": "Fips",
+    "Rank": "Rank",
+    "Z-score": "Z-score"
+  },
+  {
+    "location": "Battery Park/Tribeca",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.05566",
+    "fips": "101",
+    "Rank": "56",
+    "Z-score": "-0.292"
+  },
+  {
+    "location": "Greenwich Village",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.05566",
+    "fips": "102",
+    "Rank": "57",
+    "Z-score": "-0.292"
+  },
+  {
+    "location": "Lower East Side",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.11627",
+    "fips": "103",
+    "Rank": "50",
+    "Z-score": "-0.232"
+  },
+  {
+    "location": "Chelsea/Clinton",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.05536",
+    "fips": "104",
+    "Rank": "58",
+    "Z-score": "-0.292"
+  },
+  {
+    "location": "Midtown Business District",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.05536",
+    "fips": "105",
+    "Rank": "59",
+    "Z-score": "-0.292"
+  },
+  {
+    "location": "Murray Hill/Stuyvesant",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.0827",
+    "fips": "106",
+    "Rank": "53",
+    "Z-score": "-0.265"
+  },
+  {
+    "location": "Upper West Side",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.06982",
+    "fips": "107",
+    "Rank": "55",
+    "Z-score": "-0.278"
+  },
+  {
+    "location": "Upper East Side",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.08554",
+    "fips": "108",
+    "Rank": "52",
+    "Z-score": "-0.262"
+  },
+  {
+    "location": "Manhattanville",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.11444",
+    "fips": "109",
+    "Rank": "51",
+    "Z-score": "-0.233"
+  },
+  {
+    "location": "Central Harlem",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.17665",
+    "fips": "110",
+    "Rank": "43",
+    "Z-score": "-0.171"
+  },
+  {
+    "location": "East Harlem",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.12238",
+    "fips": "111",
+    "Rank": "49",
+    "Z-score": "-0.225"
+  },
+  {
+    "location": "Washington Heights",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.21282",
+    "fips": "112",
+    "Rank": "40",
+    "Z-score": "-0.135"
+  },
+  {
+    "location": "Mott Haven",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.27592",
+    "fips": "201",
+    "Rank": "28",
+    "Z-score": "-0.072"
+  },
+  {
+    "location": "Hunts Point",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.27592",
+    "fips": "202",
+    "Rank": "29",
+    "Z-score": "-0.072"
+  },
+  {
+    "location": "Morrisania",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.31098",
+    "fips": "203",
+    "Rank": "19",
+    "Z-score": "-0.037"
+  },
+  {
+    "location": "Concourse/Highbridge",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.24829",
+    "fips": "204",
+    "Rank": "34",
+    "Z-score": "-0.100"
+  },
+  {
+    "location": "University Heights",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.30112",
+    "fips": "205",
+    "Rank": "23",
+    "Z-score": "-0.047"
+  },
+  {
+    "location": "East Tremont",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.31098",
+    "fips": "206",
+    "Rank": "20",
+    "Z-score": "-0.037"
+  },
+  {
+    "location": "Bedford Park",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.30121",
+    "fips": "207",
+    "Rank": "22",
+    "Z-score": "-0.047"
+  },
+  {
+    "location": "Riverdale",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.31905",
+    "fips": "208",
+    "Rank": "16",
+    "Z-score": "-0.029"
+  },
+  {
+    "location": "Unionport/Soundview",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.35533",
+    "fips": "209",
+    "Rank": "11",
+    "Z-score": "0.008"
+  },
+  {
+    "location": "Throgs Neck",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.37839",
+    "fips": "210",
+    "Rank": "3",
+    "Z-score": "0.031"
+  },
+  {
+    "location": "Pelham Parkway",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.29924",
+    "fips": "211",
+    "Rank": "25",
+    "Z-score": "-0.049"
+  },
+  {
+    "location": "Williamsbridge",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.35881",
+    "fips": "212",
+    "Rank": "9",
+    "Z-score": "0.011"
+  },
+  {
+    "location": "Williamsburg/Greenpoint",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.07369",
+    "fips": "301",
+    "Rank": "54",
+    "Z-score": "-0.274"
+  },
+  {
+    "location": "Fort Greene/Brooklyn Hts",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.12345",
+    "fips": "302",
+    "Rank": "48",
+    "Z-score": "-0.224"
+  },
+  {
+    "location": "Bedford Stuyvesant",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.28161",
+    "fips": "303",
+    "Rank": "27",
+    "Z-score": "-0.066"
+  },
+  {
+    "location": "Bushwick",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.19677",
+    "fips": "304",
+    "Rank": "42",
+    "Z-score": "-0.151"
+  },
+  {
+    "location": "East New York",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.25336",
+    "fips": "305",
+    "Rank": "33",
+    "Z-score": "-0.094"
+  },
+  {
+    "location": "Park Slope",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.13147",
+    "fips": "306",
+    "Rank": "47",
+    "Z-score": "-0.216"
+  },
+  {
+    "location": "Sunset Park",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.25614",
+    "fips": "307",
+    "Rank": "32",
+    "Z-score": "-0.092"
+  },
+  {
+    "location": "Crown Heights North",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.23802",
+    "fips": "308",
+    "Rank": "37",
+    "Z-score": "-0.110"
+  },
+  {
+    "location": "Crown Heights South",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.26779",
+    "fips": "309",
+    "Rank": "30",
+    "Z-score": "-0.080"
+  },
+  {
+    "location": "Bay Ridge",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.34681",
+    "fips": "310",
+    "Rank": "12",
+    "Z-score": "-0.001"
+  },
+  {
+    "location": "Bensonhurst",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.36574",
+    "fips": "311",
+    "Rank": "5",
+    "Z-score": "0.018"
+  },
+  {
+    "location": "Borough Park",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.21248",
+    "fips": "312",
+    "Rank": "41",
+    "Z-score": "-0.135"
+  },
+  {
+    "location": "Coney Island",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.38001",
+    "fips": "313",
+    "Rank": "2",
+    "Z-score": "0.032"
+  },
+  {
+    "location": "Flatbush/Midwood",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.24074",
+    "fips": "314",
+    "Rank": "36",
+    "Z-score": "-0.107"
+  },
+  {
+    "location": "Sheepshead Bay",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.36046",
+    "fips": "315",
+    "Rank": "8",
+    "Z-score": "0.013"
+  },
+  {
+    "location": "Brownsville",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.34065",
+    "fips": "316",
+    "Rank": "13",
+    "Z-score": "-0.007"
+  },
+  {
+    "location": "East Flatbush",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.29993",
+    "fips": "317",
+    "Rank": "24",
+    "Z-score": "-0.048"
+  },
+  {
+    "location": "Canarsie",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.36356",
+    "fips": "318",
+    "Rank": "6",
+    "Z-score": "0.016"
+  },
+  {
+    "location": "Astoria",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.14144",
+    "fips": "401",
+    "Rank": "46",
+    "Z-score": "-0.206"
+  },
+  {
+    "location": "Sunnyside/Woodside",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.16416",
+    "fips": "402",
+    "Rank": "44",
+    "Z-score": "-0.184"
+  },
+  {
+    "location": "Jackson Heights",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.23195",
+    "fips": "403",
+    "Rank": "38",
+    "Z-score": "-0.116"
+  },
+  {
+    "location": "Elmhurst/Corona",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.23121",
+    "fips": "404",
+    "Rank": "39",
+    "Z-score": "-0.117"
+  },
+  {
+    "location": "Ridgewood/Glendale",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.16331",
+    "fips": "405",
+    "Rank": "45",
+    "Z-score": "-0.185"
+  },
+  {
+    "location": "Rego Park/Forest Hills",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.25923",
+    "fips": "406",
+    "Rank": "31",
+    "Z-score": "-0.089"
+  },
+  {
+    "location": "Flushing",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.28217",
+    "fips": "407",
+    "Rank": "26",
+    "Z-score": "-0.066"
+  },
+  {
+    "location": "Fresh Meadows/Briarwood",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.33902",
+    "fips": "408",
+    "Rank": "14",
+    "Z-score": "-0.009"
+  },
+  {
+    "location": "Woodhaven",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.36617",
+    "fips": "409",
+    "Rank": "4",
+    "Z-score": "0.018"
+  },
+  {
+    "location": "Howard Beach",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.35818",
+    "fips": "410",
+    "Rank": "10",
+    "Z-score": "0.010"
+  },
+  {
+    "location": "Bayside",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.2475",
+    "fips": "411",
+    "Rank": "35",
+    "Z-score": "-0.100"
+  },
+  {
+    "location": "Jamaica/St. Albans",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.39304",
+    "fips": "412",
+    "Rank": "1",
+    "Z-score": "0.045"
+  },
+  {
+    "location": "Queens Village",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.36098",
+    "fips": "413",
+    "Rank": "7",
+    "Z-score": "0.013"
+  },
+  {
+    "location": "The Rockaways",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.32431",
+    "fips": "414",
+    "Rank": "15",
+    "Z-score": "-0.024"
+  },
+  {
+    "location": "St. George",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.31141",
+    "fips": "501",
+    "Rank": "18",
+    "Z-score": "-0.036"
+  },
+  {
+    "location": "South Beach",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.31525",
+    "fips": "502",
+    "Rank": "17",
+    "Z-score": "-0.033"
+  },
+  {
+    "location": "Tottenville",
+    "Travel Time": "An hour or more",
+    "year": "2012",
+    "data format": "Percent",
+    "data": "0.30599",
+    "fips": "503",
+    "Rank": "21",
+    "Z-score": "-0.04"
+  }
+]
