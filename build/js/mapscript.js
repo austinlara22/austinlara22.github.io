@@ -7,7 +7,7 @@ d3.json('https://austinlara22.github.io/data/Commuting.json', function(err, rows
           type: 'choropleth',
           locationmode: 'geojson-id',
           locations: unpack(rows, "fips"),
-          featureidkey: "boro_cd",
+          featureidkey: "properties.boro_cd",
           geojson: "https://austinlara22.github.io/data/Community Districts.geojson",
           z: unpack(rows, 'data'),
           text: unpack(rows, 'location'),
@@ -21,12 +21,6 @@ d3.json('https://austinlara22.github.io/data/Commuting.json', function(err, rows
           colorbar: {
               title: 'Percent',
               thickness: 0.2
-          },
-          marker: {
-              line:{
-                  color: 'rgb(255,255,255)',
-                  width: 2
-              }
           }
       }];
 
