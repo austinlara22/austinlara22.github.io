@@ -1,0 +1,60 @@
+Location,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,2021,Mean Score,608.16296,101,9,1.346
+Greenwich Village,2021,Mean Score,610.41667,102,5,1.635
+Lower East Side,2021,Mean Score,598.088,103,28,0.057
+Chelsea/Clinton,2021,Mean Score,606.625,104,11,1.149
+Midtown Business District,2021,Mean Score,611.125,105,4,1.725
+Murray Hill/Stuyvesant,2021,Mean Score,611.38095,106,3,1.758
+Upper West Side,2021,Mean Score,607.29928,107,10,1.236
+Upper East Side,2021,Mean Score,614.67619,108,1,2.180
+Manhattanville,2021,Mean Score,595.11458,109,34,-0.324
+Central Harlem,2021,Mean Score,588.98426,110,52,-1.109
+East Harlem,2021,Mean Score,592.77826,111,39,-0.623
+Washington Heights,2021,Mean Score,591.40606,112,41,-0.799
+Mott Haven,2021,Mean Score,589.43137,201,50,-1.051
+Hunts Point,2021,Mean Score,590.07857,202,48,-0.968
+Morrisania,2021,Mean Score,590.76087,203,45,-0.881
+Concourse/Highbridge,2021,Mean Score,591.03457,204,43,-0.846
+University Heights,2021,Mean Score,586.3254,205,58,-1.449
+East Tremont,2021,Mean Score,586.15476,206,59,-1.471
+Bedford Park,2021,Mean Score,587.1902,207,57,-1.338
+Riverdale,2021,Mean Score,593.17857,208,37,-0.572
+Unionport/Soundview,2021,Mean Score,591.26543,209,42,-0.817
+Throgs Neck,2021,Mean Score,594.28431,210,35,-0.430
+Pelham Parkway,2021,Mean Score,601.71569,211,18,0.521
+Williamsbridge,2021,Mean Score,588.31852,212,55,-1.194
+Williamsburg/Greenpoint,2021,Mean Score,598.30476,301,27,0.084
+Fort Greene/Brooklyn Hts,2021,Mean Score,598.99074,302,22,0.172
+Bedford Stuyvesant,2021,Mean Score,587.42101,303,56,-1.309
+Bushwick,2021,Mean Score,588.43519,304,54,-1.179
+East New York,2021,Mean Score,588.9951,305,51,-1.107
+Park Slope,2021,Mean Score,603.39216,306,15,0.736
+Sunset Park,2021,Mean Score,598.45833,307,26,0.104
+Crown Heights North,2021,Mean Score,593.95513,308,36,-0.472
+Crown Heights South,2021,Mean Score,590.85,309,44,-0.870
+Bay Ridge,2021,Mean Score,606.61538,310,12,1.148
+Bensonhurst,2021,Mean Score,603.38571,311,16,0.735
+Borough Park,2021,Mean Score,600.14259,312,20,0.320
+Coney Island,2021,Mean Score,597.38194,313,30,-0.034
+Flatbush/Midwood,2021,Mean Score,596.88889,314,31,-0.097
+Sheepshead Bay,2021,Mean Score,605.68095,315,13,1.029
+Brownsville,2021,Mean Score,588.54533,316,53,-1.165
+East Flatbush,2021,Mean Score,590.53704,317,46,-0.910
+Canarsie,2021,Mean Score,595.96818,318,32,-0.215
+Astoria,2021,Mean Score,600.36111,401,19,0.348
+Sunnyside/Woodside,2021,Mean Score,603.64394,402,14,0.768
+Jackson Heights,2021,Mean Score,595.6859,403,33,-0.251
+Elmhurst/Corona,2021,Mean Score,592.51111,404,40,-0.657
+Ridgewood/Glendale,2021,Mean Score,598.825,405,24,0.151
+Rego Park/Forest Hills,2021,Mean Score,609.83333,406,6,1.560
+Flushing,2021,Mean Score,608.58,407,8,1.400
+Fresh Meadows/Briarwood,2021,Mean Score,602.93571,408,17,0.677
+Woodhaven,2021,Mean Score,598.83333,409,23,0.152
+Howard Beach,2021,Mean Score,598.46458,410,25,0.105
+Bayside,2021,Mean Score,611.9386,411,2,1.830
+Jamaica/St. Albans,2021,Mean Score,590.37157,412,47,-0.931
+Queens Village,2021,Mean Score,597.62756,413,29,-0.002
+The Rockaways,2021,Mean Score,592.95686,414,38,-0.600
+St. George,2021,Mean Score,590.00769,501,49,-0.978
+South Beach,2021,Mean Score,599.6,502,21,0.250
+Tottenville,2021,Mean Score,609.12281,503,7,1.469

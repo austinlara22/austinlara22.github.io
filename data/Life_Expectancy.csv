@@ -1,0 +1,60 @@
+Location,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,2018,Years,86.2,101,6,1.368
+Greenwich Village,2018,Years,87.2,102,1,1.724
+Lower East Side,2018,Years,83.8,103,20,0.516
+Chelsea/Clinton,2018,Years,84.8,104,12,0.871
+Midtown Business District,2018,Years,86.2,105,7,1.368
+Murray Hill/Stuyvesant,2018,Years,86.6,106,3,1.511
+Upper West Side,2018,Years,85.5,107,9,1.120
+Upper East Side,2018,Years,86.6,108,4,1.511
+Manhattanville,2018,Years,82.4,109,29,0.018
+Central Harlem,2018,Years,77.1,110,57,-1.865
+East Harlem,2018,Years,78.2,111,54,-1.474
+Washington Heights,2018,Years,84.7,112,14,0.835
+Mott Haven,2018,Years,78.3,201,53,-1.439
+Hunts Point,2018,Years,80.1,202,47,-0.799
+Morrisania,2018,Years,77.2,203,56,-1.830
+Concourse/Highbridge,2018,Years,80,204,48,-0.835
+University Heights,2018,Years,80.5,205,45,-0.657
+East Tremont,2018,Years,77.9,206,55,-1.581
+Bedford Park,2018,Years,80,207,49,-0.835
+Riverdale,2018,Years,81.6,208,37,-0.266
+Unionport/Soundview,2018,Years,80.7,209,42,-0.586
+Throgs Neck,2018,Years,81.6,210,38,-0.266
+Pelham Parkway,2018,Years,80.4,211,46,-0.693
+Williamsbridge,2018,Years,81.6,212,39,-0.266
+Williamsburg/Greenpoint,2018,Years,82.7,301,26,0.125
+Fort Greene/Brooklyn Hts,2018,Years,82.3,302,30,-0.017
+Bedford Stuyvesant,2018,Years,78.7,303,52,-1.297
+Bushwick,2018,Years,81.7,304,36,-0.231
+East New York,2018,Years,79.2,305,51,-1.119
+Park Slope,2018,Years,82.5,306,28,0.054
+Sunset Park,2018,Years,83.7,307,21,0.480
+Crown Heights North,2018,Years,80.6,308,43,-0.622
+Crown Heights South,2018,Years,82.3,309,31,-0.017
+Bay Ridge,2018,Years,84,310,18,0.587
+Bensonhurst,2018,Years,84.5,311,17,0.764
+Borough Park,2018,Years,84.7,312,15,0.835
+Coney Island,2018,Years,80.6,313,44,-0.622
+Flatbush/Midwood,2018,Years,82.7,314,27,0.125
+Sheepshead Bay,2018,Years,83.9,315,19,0.551
+Brownsville,2018,Years,75.8,316,59,-2.327
+East Flatbush,2018,Years,82.8,317,25,0.160
+Canarsie,2018,Years,82.2,318,32,-0.053
+Astoria,2018,Years,83.7,401,22,0.480
+Sunnyside/Woodside,2018,Years,86.9,402,2,1.617
+Jackson Heights,2018,Years,85.9,403,8,1.262
+Elmhurst/Corona,2018,Years,86.6,404,5,1.511
+Ridgewood/Glendale,2018,Years,81.9,405,34,-0.160
+Rego Park/Forest Hills,2018,Years,85.2,406,10,1.013
+Flushing,2018,Years,85,407,11,0.942
+Fresh Meadows/Briarwood,2018,Years,84.7,408,16,0.835
+Woodhaven,2018,Years,83.4,409,23,0.373
+Howard Beach,2018,Years,82,410,33,-0.124
+Bayside,2018,Years,84.8,411,13,0.871
+Jamaica/St. Albans,2018,Years,81.3,412,41,-0.373
+Queens Village,2018,Years,83.2,413,24,0.302
+The Rockaways,2018,Years,76.9,414,58,-1.936
+St. George,2018,Years,79.7,501,50,-0.941
+South Beach,2018,Years,81.9,502,35,-0.160
+Tottenville,2018,Years,81.4,503,40,-0.337

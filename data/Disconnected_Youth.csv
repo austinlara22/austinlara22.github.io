@@ -1,0 +1,60 @@
+Location,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,2019,Percent,0.03282,101,58,-1.712
+Greenwich Village,2019,Percent,0.03282,102,59,-1.712
+Lower East Side,2019,Percent,0.08822,103,45,-0.695
+Chelsea/Clinton,2019,Percent,0.03555,104,56,-1.662
+Midtown Business District,2019,Percent,0.03555,105,57,-1.662
+Murray Hill/Stuyvesant,2019,Percent,0.04775,106,55,-1.438
+Upper West Side,2019,Percent,0.11348,107,35,-0.232
+Upper East Side,2019,Percent,0.05401,108,54,-1.323
+Manhattanville,2019,Percent,0.0759,109,50,-0.922
+Central Harlem,2019,Percent,0.13354,110,23,0.137
+East Harlem,2019,Percent,0.1259,111,27,-0.004
+Washington Heights,2019,Percent,0.11645,112,32,-0.177
+Mott Haven,2019,Percent,0.25284,201,1,2.327
+Hunts Point,2019,Percent,0.25284,202,2,2.327
+Morrisania,2019,Percent,0.19661,203,7,1.295
+Concourse/Highbridge,2019,Percent,0.15297,204,17,0.493
+University Heights,2019,Percent,0.23737,205,3,2.043
+East Tremont,2019,Percent,0.19661,206,8,1.295
+Bedford Park,2019,Percent,0.16819,207,12,0.773
+Riverdale,2019,Percent,0.10901,208,37,-0.314
+Unionport/Soundview,2019,Percent,0.21774,209,5,1.683
+Throgs Neck,2019,Percent,0.10086,210,42,-0.463
+Pelham Parkway,2019,Percent,0.1554,211,15,0.538
+Williamsbridge,2019,Percent,0.13936,212,19,0.244
+Williamsburg/Greenpoint,2019,Percent,0.10367,301,39,-0.412
+Fort Greene/Brooklyn Hts,2019,Percent,0.08621,302,46,-0.732
+Bedford Stuyvesant,2019,Percent,0.15933,303,14,0.610
+Bushwick,2019,Percent,0.13053,304,25,0.081
+East New York,2019,Percent,0.21735,305,6,1.675
+Park Slope,2019,Percent,0.05595,306,53,-1.288
+Sunset Park,2019,Percent,0.12717,307,26,0.020
+Crown Heights North,2019,Percent,0.17008,308,11,0.808
+Crown Heights South,2019,Percent,0.11804,309,30,-0.148
+Bay Ridge,2019,Percent,0.11317,310,36,-0.237
+Bensonhurst,2019,Percent,0.09772,311,43,-0.521
+Borough Park,2019,Percent,0.13751,312,20,0.210
+Coney Island,2019,Percent,0.19412,313,9,1.249
+Flatbush/Midwood,2019,Percent,0.12227,314,29,-0.070
+Sheepshead Bay,2019,Percent,0.14495,315,18,0.346
+Brownsville,2019,Percent,0.22212,316,4,1.763
+East Flatbush,2019,Percent,0.15504,317,16,0.531
+Canarsie,2019,Percent,0.12245,318,28,-0.067
+Astoria,2019,Percent,0.11672,401,31,-0.172
+Sunnyside/Woodside,2019,Percent,0.08377,402,48,-0.777
+Jackson Heights,2019,Percent,0.10613,403,38,-0.367
+Elmhurst/Corona,2019,Percent,0.08471,404,47,-0.760
+Ridgewood/Glendale,2019,Percent,0.13411,405,22,0.147
+Rego Park/Forest Hills,2019,Percent,0.08961,406,44,-0.670
+Flushing,2019,Percent,0.08165,407,49,-0.816
+Fresh Meadows/Briarwood,2019,Percent,0.10094,408,41,-0.462
+Woodhaven,2019,Percent,0.13437,409,21,0.152
+Howard Beach,2019,Percent,0.1018,410,40,-0.446
+Bayside,2019,Percent,0.06727,411,52,-1.080
+Jamaica/St. Albans,2019,Percent,0.11631,412,33,-0.180
+Queens Village,2019,Percent,0.13209,413,24,0.110
+The Rockaways,2019,Percent,0.19124,414,10,1.196
+St. George,2019,Percent,0.16202,501,13,0.660
+South Beach,2019,Percent,0.11431,502,34,-0.216
+Tottenville,2019,Percent,0.07304,503,51,-0.974

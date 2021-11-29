@@ -1,0 +1,60 @@
+Location,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,2017,Percent,0.05444,101,54,-1.073
+Greenwich Village,2017,Percent,0.05444,102,55,-1.073
+Lower East Side,2017,Percent,0.25385,103,19,0.283
+Chelsea/Clinton,2017,Percent,0.07852,104,50,-0.909
+Midtown Business District,2017,Percent,0.07852,105,51,-0.909
+Murray Hill/Stuyvesant,2017,Percent,0.0444,106,57,-1.142
+Upper West Side,2017,Percent,0.08088,107,49,-0.893
+Upper East Side,2017,Percent,0.04551,108,56,-1.134
+Manhattanville,2017,Percent,0.22774,109,22,0.106
+Central Harlem,2017,Percent,0.29296,110,13,0.549
+East Harlem,2017,Percent,0.39903,111,9,1.271
+Washington Heights,2017,Percent,0.22845,112,21,0.111
+Mott Haven,2017,Percent,0.54279,201,1,2.249
+Hunts Point,2017,Percent,0.54279,202,2,2.249
+Morrisania,2017,Percent,0.53826,203,3,2.218
+Concourse/Highbridge,2017,Percent,0.49205,204,6,1.904
+University Heights,2017,Percent,0.50894,205,5,2.019
+East Tremont,2017,Percent,0.53826,206,4,2.218
+Bedford Park,2017,Percent,0.44625,207,8,1.592
+Riverdale,2017,Percent,0.20038,208,27,-0.080
+Unionport/Soundview,2017,Percent,0.29184,209,14,0.542
+Throgs Neck,2017,Percent,0.14247,210,36,-0.474
+Pelham Parkway,2017,Percent,0.2095,211,25,-0.018
+Williamsbridge,2017,Percent,0.36578,212,10,1.045
+Williamsburg/Greenpoint,2017,Percent,0.13956,301,38,-0.494
+Fort Greene/Brooklyn Hts,2017,Percent,0.15385,302,33,-0.397
+Bedford Stuyvesant,2017,Percent,0.24161,303,20,0.200
+Bushwick,2017,Percent,0.31797,304,11,0.719
+East New York,2017,Percent,0.30773,305,12,0.650
+Park Slope,2017,Percent,0.08395,306,48,-0.872
+Sunset Park,2017,Percent,0.14605,307,34,-0.450
+Crown Heights North,2017,Percent,0.21626,308,23,0.028
+Crown Heights South,2017,Percent,0.27164,309,15,0.404
+Bay Ridge,2017,Percent,0.09483,310,46,-0.798
+Bensonhurst,2017,Percent,0.09505,311,45,-0.797
+Borough Park,2017,Percent,0.10592,312,44,-0.723
+Coney Island,2017,Percent,0.21346,313,24,0.009
+Flatbush/Midwood,2017,Percent,0.18799,314,28,-0.165
+Sheepshead Bay,2017,Percent,0.10836,315,43,-0.706
+Brownsville,2017,Percent,0.47465,316,7,1.785
+East Flatbush,2017,Percent,0.26991,317,16,0.393
+Canarsie,2017,Percent,0.20703,318,26,-0.035
+Astoria,2017,Percent,0.16036,401,31,-0.353
+Sunnyside/Woodside,2017,Percent,0.11829,402,41,-0.639
+Jackson Heights,2017,Percent,0.16027,403,32,-0.353
+Elmhurst/Corona,2017,Percent,0.18427,404,29,-0.190
+Ridgewood/Glendale,2017,Percent,0.05665,405,53,-1.058
+Rego Park/Forest Hills,2017,Percent,0.06314,406,52,-1.014
+Flushing,2017,Percent,0.14171,407,37,-0.480
+Fresh Meadows/Briarwood,2017,Percent,0.12767,408,39,-0.575
+Woodhaven,2017,Percent,0.10946,409,42,-0.699
+Howard Beach,2017,Percent,0.14332,410,35,-0.469
+Bayside,2017,Percent,0.01986,411,59,-1.308
+Jamaica/St. Albans,2017,Percent,0.25748,412,18,0.308
+Queens Village,2017,Percent,0.12308,413,40,-0.606
+The Rockaways,2017,Percent,0.26162,414,17,0.336
+St. George,2017,Percent,0.17789,501,30,-0.233
+South Beach,2017,Percent,0.08909,502,47,-0.837
+Tottenville,2017,Percent,0.03197,503,58,-1.226

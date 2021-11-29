@@ -1,0 +1,60 @@
+Location,Travel Time,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,An hour or more,2012,Percent,0.05566,101,56,-0.292
+Greenwich Village,An hour or more,2012,Percent,0.05566,102,57,-0.292
+Lower East Side,An hour or more,2012,Percent,0.11627,103,50,-0.232
+Chelsea/Clinton,An hour or more,2012,Percent,0.05536,104,58,-0.292
+Midtown Business District,An hour or more,2012,Percent,0.05536,105,59,-0.292
+Murray Hill/Stuyvesant,An hour or more,2012,Percent,0.0827,106,53,-0.265
+Upper West Side,An hour or more,2012,Percent,0.06982,107,55,-0.278
+Upper East Side,An hour or more,2012,Percent,0.08554,108,52,-0.262
+Manhattanville,An hour or more,2012,Percent,0.11444,109,51,-0.233
+Central Harlem,An hour or more,2012,Percent,0.17665,110,43,-0.171
+East Harlem,An hour or more,2012,Percent,0.12238,111,49,-0.225
+Washington Heights,An hour or more,2012,Percent,0.21282,112,40,-0.135
+Mott Haven,An hour or more,2012,Percent,0.27592,201,28,-0.072
+Hunts Point,An hour or more,2012,Percent,0.27592,202,29,-0.072
+Morrisania,An hour or more,2012,Percent,0.31098,203,19,-0.037
+Concourse/Highbridge,An hour or more,2012,Percent,0.24829,204,34,-0.100
+University Heights,An hour or more,2012,Percent,0.30112,205,23,-0.047
+East Tremont,An hour or more,2012,Percent,0.31098,206,20,-0.037
+Bedford Park,An hour or more,2012,Percent,0.30121,207,22,-0.047
+Riverdale,An hour or more,2012,Percent,0.31905,208,16,-0.029
+Unionport/Soundview,An hour or more,2012,Percent,0.35533,209,11,0.008
+Throgs Neck,An hour or more,2012,Percent,0.37839,210,3,0.031
+Pelham Parkway,An hour or more,2012,Percent,0.29924,211,25,-0.049
+Williamsbridge,An hour or more,2012,Percent,0.35881,212,9,0.011
+Williamsburg/Greenpoint,An hour or more,2012,Percent,0.07369,301,54,-0.274
+Fort Greene/Brooklyn Hts,An hour or more,2012,Percent,0.12345,302,48,-0.224
+Bedford Stuyvesant,An hour or more,2012,Percent,0.28161,303,27,-0.066
+Bushwick,An hour or more,2012,Percent,0.19677,304,42,-0.151
+East New York,An hour or more,2012,Percent,0.25336,305,33,-0.094
+Park Slope,An hour or more,2012,Percent,0.13147,306,47,-0.216
+Sunset Park,An hour or more,2012,Percent,0.25614,307,32,-0.092
+Crown Heights North,An hour or more,2012,Percent,0.23802,308,37,-0.110
+Crown Heights South,An hour or more,2012,Percent,0.26779,309,30,-0.080
+Bay Ridge,An hour or more,2012,Percent,0.34681,310,12,-0.001
+Bensonhurst,An hour or more,2012,Percent,0.36574,311,5,0.018
+Borough Park,An hour or more,2012,Percent,0.21248,312,41,-0.135
+Coney Island,An hour or more,2012,Percent,0.38001,313,2,0.032
+Flatbush/Midwood,An hour or more,2012,Percent,0.24074,314,36,-0.107
+Sheepshead Bay,An hour or more,2012,Percent,0.36046,315,8,0.013
+Brownsville,An hour or more,2012,Percent,0.34065,316,13,-0.007
+East Flatbush,An hour or more,2012,Percent,0.29993,317,24,-0.048
+Canarsie,An hour or more,2012,Percent,0.36356,318,6,0.016
+Astoria,An hour or more,2012,Percent,0.14144,401,46,-0.206
+Sunnyside/Woodside,An hour or more,2012,Percent,0.16416,402,44,-0.184
+Jackson Heights,An hour or more,2012,Percent,0.23195,403,38,-0.116
+Elmhurst/Corona,An hour or more,2012,Percent,0.23121,404,39,-0.117
+Ridgewood/Glendale,An hour or more,2012,Percent,0.16331,405,45,-0.185
+Rego Park/Forest Hills,An hour or more,2012,Percent,0.25923,406,31,-0.089
+Flushing,An hour or more,2012,Percent,0.28217,407,26,-0.066
+Fresh Meadows/Briarwood,An hour or more,2012,Percent,0.33902,408,14,-0.009
+Woodhaven,An hour or more,2012,Percent,0.36617,409,4,0.018
+Howard Beach,An hour or more,2012,Percent,0.35818,410,10,0.010
+Bayside,An hour or more,2012,Percent,0.2475,411,35,-0.100
+Jamaica/St. Albans,An hour or more,2012,Percent,0.39304,412,1,0.045
+Queens Village,An hour or more,2012,Percent,0.36098,413,7,0.013
+The Rockaways,An hour or more,2012,Percent,0.32431,414,15,-0.024
+St. George,An hour or more,2012,Percent,0.31141,501,18,-0.036
+South Beach,An hour or more,2012,Percent,0.31525,502,17,-0.033
+Tottenville,An hour or more,2012,Percent,0.30599,503,21,-0.042

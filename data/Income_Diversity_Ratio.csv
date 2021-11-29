@@ -1,0 +1,60 @@
+Location,TimeFrame,DataFormat,Data,Fips,Rank,Z-score
+Battery Park/Tribeca,2019,Rate,3.62399,101,55,-1.355
+Greenwich Village,2019,Rate,3.62399,102,56,-1.355
+Lower East Side,2019,Rate,10.97049,103,1,3.103
+Chelsea/Clinton,2019,Rate,6.90935,104,13,0.638
+Midtown Business District,2019,Rate,6.90935,105,14,0.638
+Murray Hill/Stuyvesant,2019,Rate,3.49085,106,59,-1.436
+Upper West Side,2019,Rate,5.95354,107,21,0.058
+Upper East Side,2019,Rate,4.35345,108,51,-0.912
+Manhattanville,2019,Rate,9.12982,109,3,1.986
+Central Harlem,2019,Rate,8.89311,110,4,1.842
+East Harlem,2019,Rate,10.67941,111,2,2.926
+Washington Heights,2019,Rate,6.16424,112,20,0.186
+Mott Haven,2019,Rate,7.34305,201,8,0.902
+Hunts Point,2019,Rate,7.34305,202,9,0.902
+Morrisania,2019,Rate,6.31982,203,16,0.281
+Concourse/Highbridge,2019,Rate,5.91483,204,23,0.035
+University Heights,2019,Rate,7.17692,205,10,0.801
+East Tremont,2019,Rate,6.31982,206,17,0.281
+Bedford Park,2019,Rate,5.91146,207,24,0.033
+Riverdale,2019,Rate,5.84701,208,28,-0.006
+Unionport/Soundview,2019,Rate,7.15164,209,11,0.785
+Throgs Neck,2019,Rate,5.48673,210,35,-0.225
+Pelham Parkway,2019,Rate,5.07766,211,39,-0.473
+Williamsbridge,2019,Rate,5.73949,212,31,-0.071
+Williamsburg/Greenpoint,2019,Rate,6.39915,301,15,0.329
+Fort Greene/Brooklyn Hts,2019,Rate,7.78503,302,7,1.170
+Bedford Stuyvesant,2019,Rate,6.17597,303,19,0.193
+Bushwick,2019,Rate,5.87594,304,25,0.011
+East New York,2019,Rate,5.93662,305,22,0.048
+Park Slope,2019,Rate,4.06255,306,53,-1.089
+Sunset Park,2019,Rate,5.74688,307,29,-0.067
+Crown Heights North,2019,Rate,6.99201,308,12,0.689
+Crown Heights South,2019,Rate,5.85374,309,27,-0.002
+Bay Ridge,2019,Rate,5.45139,310,36,-0.246
+Bensonhurst,2019,Rate,5.72152,311,33,-0.082
+Borough Park,2019,Rate,5.40834,312,37,-0.272
+Coney Island,2019,Rate,8.41745,313,6,1.554
+Flatbush/Midwood,2019,Rate,5.09996,314,38,-0.459
+Sheepshead Bay,2019,Rate,5.74199,315,30,-0.070
+Brownsville,2019,Rate,8.79087,316,5,1.780
+East Flatbush,2019,Rate,4.71791,317,44,-0.691
+Canarsie,2019,Rate,4.8504,318,41,-0.611
+Astoria,2019,Rate,4.84979,401,42,-0.611
+Sunnyside/Woodside,2019,Rate,4.97433,402,40,-0.536
+Jackson Heights,2019,Rate,4.55288,403,46,-0.791
+Elmhurst/Corona,2019,Rate,3.52181,404,58,-1.417
+Ridgewood/Glendale,2019,Rate,4.45823,405,48,-0.849
+Rego Park/Forest Hills,2019,Rate,6.28154,406,18,0.257
+Flushing,2019,Rate,5.73311,407,32,-0.075
+Fresh Meadows/Briarwood,2019,Rate,4.73329,408,43,-0.682
+Woodhaven,2019,Rate,4.44874,409,49,-0.855
+Howard Beach,2019,Rate,3.9001,410,54,-1.188
+Bayside,2019,Rate,4.70259,411,45,-0.701
+Jamaica/St. Albans,2019,Rate,4.49003,412,47,-0.830
+Queens Village,2019,Rate,3.52584,413,57,-1.415
+The Rockaways,2019,Rate,5.86278,414,26,0.003
+St. George,2019,Rate,5.63351,501,34,-0.136
+South Beach,2019,Rate,4.41909,502,50,-0.873
+Tottenville,2019,Rate,4.12523,503,52,-1.051
