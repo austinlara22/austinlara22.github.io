@@ -20,6 +20,9 @@ left: 50%;
  .vocab{
    margin-top: -160px;
  }
+ #myDiv{
+  width:150%;
+}
 
 .v4rs{   margin-top: 200px;
    font-size: 30px;
