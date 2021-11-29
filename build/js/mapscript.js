@@ -8,7 +8,7 @@ d3.json('https://austinlara22.github.io/data/Commuting.json', function(err, rows
           locationmode: 'geojson-id',
           locations: unpack(rows, "fips"),
           featureidkey: "boro_cd",
-          geojson: "../data/Community Districts.geojson",
+          geojson: "https://austinlara22.github.io/data/Community Districts.geojson",
           z: unpack(rows, 'data'),
           text: unpack(rows, 'location'),
           zmin: 0,
