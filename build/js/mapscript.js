@@ -6,7 +6,7 @@ d3.json('https://austinlara22.github.io/data/Commuting.json', function(err, rows
       var data = [{
           type: 'choropleth',
           locationmode: 'geojson-id',
-          locations: unpack(rows, 'fips'),
+          locations: unpack(rows, "fips"),
           geojson: "../data/Community Districts.geojson",
           z: unpack(rows, 'data'),
           text: unpack(rows, 'location'),
