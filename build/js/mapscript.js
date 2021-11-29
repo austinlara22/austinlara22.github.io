@@ -1,5 +1,5 @@
 let data;
-let buttons = document.getElementsByClassName("dataset");
+let buttons = Array.from(document.getElementsByClassName("dataset"));
 
 buttons.forEach(function(el) {
 
