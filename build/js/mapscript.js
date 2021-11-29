@@ -2,10 +2,9 @@ let data;
 let buttons = Array.from(document.getElementsByClassName("dataset"));
 
 buttons.forEach(function(el) {
-
-  el.addEventListener('click', function(){
-    data = el.value() + ".json"
-  })
+  if(el.checked == true){
+    data = el.value + ".json"
+  }
 });
 
 
