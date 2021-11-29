@@ -1,4 +1,13 @@
 
+#Tahmid{
+  height:300px;
+}
+#MacroAustin{
+  height:300px;
+}
+#MicroAustin{
+  height:300px;
+}
 .list-group{
       display:inline-block;
  }
@@ -14,7 +23,7 @@ left: 50%;
  }
  .about{
    font-size: 30px;
-   text-shadow: 2px 2px rgb(98,161,0);
+   text-shadow: 2px 2px rgb(254,143,105);
 
  }
  .vocab{
@@ -38,18 +47,57 @@ left: 50%;
      margin-top: 700px;
      text-align: center;
      font-size:15px;
-     height:60px;
+     height:55px;
      padding-top: 5px;
      margin-top: 100px;
  }
  .container2 {
    background-color: rgb(185,185,185);
      width: 2300px;
-     height:1550px;
+     height:1450px;
      z-index:-20000;
      position:relative;
  }
-
+ .tiles{
+   margin-top:-1000px;
+ }
+ .container3 {
+   background-color: rgb(172,172,172);
+     width: 2300px;
+     height:1550px;
+     z-index:-20000;
+     position:relative;
+     margin-left:-500px;
+     margin-top:-820px;
+ }
+ .container4 {
+   background-color: rgb(157,157,157);
+     width: 2300px;
+     height:1550px;
+     z-index:-20000;
+     position:relative;
+     margin-left:-500px;
+     margin-top:-850px;
+ }
+ .container5 {
+   background-color: rgb(142,142,142);
+     width: 2300px;
+     height:1000px;
+     z-index:-20000;
+     position:relative;
+     margin-left:-500px;
+     margin-top:-360px;
+ }
+ .container6 {
+   background-color: rgb(127,127,127);
+     width: 2300px;
+     height:1200px;
+     z-index:-20000;
+     position:relative;
+     margin-left:-500px;
+     margin-top:-600px;
+     font: white;
+ }
 .parallax {
   /* The image used */
   font-size: 1px;
@@ -101,24 +149,23 @@ font-size:50px;
 .caroimg{
   width: 500px;
   height:300px;
-  vertical-align: middle;
-  position:center;
-  margin-left: 300px;
+  margin-left: 500px;
   margin-top: 200px
 }
 .carousel-caption{
-  margin-left:600px;
+  margin-left:740px;
+  width: 400px;
   font-family: 'Shippori Antique', sans-serif;
   color: gray;
 }
 .carousel .item {
-  margin-top:100px;
-  height: 300px;
+
 }
 #new{
-  width:604px;
-  height:340px;
+  width:600px;
+  height:300px;
   position: center;
+  margin-left: 100px;
 }
 #logo{
   margin-top:-100px;
@@ -136,7 +183,7 @@ p{
 }
 body {background-color: rgb(213,213,213);
   font-family: 'Shippori Antique B1', sans-serif;
-
+overflow-x: hidden;
           }
 h1, h2, h3, h4, h5, h6 {
               font-family: 'Shippori Antique', sans-serif;
@@ -156,7 +203,6 @@ h1, h2, h3, h4, h5, h6 {
           	position: relative;
           	vertical-align: top;
           	margin: 10px;
-          	font-family: 'helvetica', san-serif;
           	min-height: 25vh;
           	background: #262a2b;
           	border: 1px solid #252727;
@@ -250,23 +296,23 @@ h1, h2, h3, h4, h5, h6 {
           }
           .tilesWrap li:nth-child(1):before {
           	background: #C9FFBF;
-          background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
-          background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+          background: -webkit-linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
+          background: linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
           }
           .tilesWrap li:nth-child(2):before {
           	background: #f2709c;
-          background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
-          background: linear-gradient(to right, #ff9472, #f2709c);
+            background: -webkit-linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
+            background: linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
           }
           .tilesWrap li:nth-child(3):before {
           	background: #c21500;
-          background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-          background: linear-gradient(to right, #ffc500, #c21500);
+            background: -webkit-linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
+            background: linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
           }
           .tilesWrap li:nth-child(4):before {
           	background: #FC354C;
-          background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
-          background: linear-gradient(to right, #0ABFBC, #FC354C);
+            background: -webkit-linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
+            background: linear-gradient(to right, rgb(98,161,0), rgb(254,143,105));
           }
           /* List */
           .gradiented {
@@ -293,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
           /* Element counter */
           .grad1::before {
             content: counters(index, ".", decimal-leading-zero);
-            font-size: 1.5rem;
+            font-size: 33px;
             text-align: right;
             font-weight: bold;
             min-width: 50px;
@@ -376,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .menu li:hover {
-      background: orange; /*hover bg*/
+      background: rgb(254,143,105); /*hover bg*/
 
     }
 
@@ -478,6 +524,6 @@ h1, h2, h3, h4, h5, h6 {
   height:600px;
 }
 .parralax2{
-  background-color:rgb(200,200,200);
+  background-color:rgb(198,198,198);
   height:650px;
 }
