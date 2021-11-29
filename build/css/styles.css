@@ -1,3 +1,4 @@
+
 .list-group{
       display:inline-block;
  }
@@ -8,7 +9,7 @@ left: 50%;
    background-color: rgb(180,180,180);
      width: 760px;
      margin: 0 auto;
-     margin-top: 100px;
+     margin-top: 10px;
      text-align: center;
  }
  .about{
@@ -34,10 +35,10 @@ left: 50%;
    background-color: rgb(220,220,220);
      width: 900px;
      margin: 0 auto;
-     margin-top: 30px;
+     margin-top: 700px;
      text-align: center;
      font-size:15px;
-     height:60px;
+     height:30px;
      padding-top: 5px;
      margin-top: 100px;
  }
@@ -54,6 +55,7 @@ left: 50%;
   background-size: cover;
   padding-left: 333px;
   padding-right: 333px;
+  margin-top:100px;
 
 }
 .row-header{
@@ -101,6 +103,17 @@ font-size:50px;
 .carousel .item {
   margin-top:100px;
   height: 300px;
+}
+#new{
+  width:604px;
+  height:340px;
+  position: center;
+}
+#logo{
+  margin-top:-100px;
+  width:500;
+  margin-left:540px;
+
 }
 h2{
   margin-top: 500px;
@@ -296,3 +309,151 @@ h1, h2, h3, h4, h5, h6 {
             }
             browsers: last 2 versions
           }
+          @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+          }
+          @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+          /* Clearing floats */
+
+    .cf:before,
+    .cf:after {
+      content: " ";
+      display: table;
+    }
+
+    .cf:after {
+      clear: both;
+    }
+
+    .cf {
+      *zoom: 1;
+    }
+
+    /* Mini reset, no margins, paddings or bullets */
+    .menu,
+    .submenu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    /* Main level */
+    .menu {
+      margin-left: 290px ;
+      margin-top: -90px;
+      width: 800px;
+      position:absolute;
+      /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+      width: -moz-fit-content;
+      width: -webkit-fit-content;
+      width: fit-content;
+    }
+
+    .menu > li {
+      background: rgb(0,49,104);
+      font-size: 12px;
+      float: left;
+      position: relative;
+      transform: skewX(25deg);
+    }
+
+    .menu a {
+      display: block;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 12px; /*text size*/
+
+    }
+
+    .menu li:hover {
+      background: #e74c3c;
+
+    }
+
+    .menu > li > a {
+      transform: skewX(-25deg);
+      padding: 1em 2em;
+      font-size: 16px; /*menu texts ize*/
+
+    }
+
+    /* Dropdown */
+    .submenu {
+      position: absolute;
+      width: 300px;
+      left: 50%; margin-left: -100px;
+      transform: skewX(-25deg);
+      transform-origin: left top;
+    }
+
+    .submenu li {
+      background-color: #34495e;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .submenu > li > a {
+      padding: 1em 2em;
+    }
+
+    .submenu > li::after {
+      content: '';
+      position: absolute;
+      top: -125%;
+      height: 100%;
+      width: 100%;
+      box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+    }
+
+    /* Odd stuff */
+    .submenu > li:nth-child(odd){
+      transform: skewX(-25deg) translateX(0);
+    }
+
+    .submenu > li:nth-child(odd) > a {
+      transform: skewX(25deg);
+    }
+
+    .submenu > li:nth-child(odd)::after {
+      right: -50%;
+      transform: skewX(-25deg) rotate(3deg);
+    }
+
+    /* Even stuff */
+    .submenu > li:nth-child(even){
+      transform: skewX(25deg) translateX(0);
+    }
+
+    .submenu > li:nth-child(even) > a {
+      transform: skewX(-25deg);
+    }
+
+    .submenu > li:nth-child(even)::after {
+      left: -50%;
+      transform: skewX(25deg) rotate(3deg);
+    }
+
+    /* Show dropdown */
+    .submenu,
+    .submenu li {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .submenu li {
+      transition: .5s ease transform;
+    }
+
+    .menu > li:hover .submenu,
+    .menu > li:hover .submenu li {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .menu > li:hover .submenu li:nth-child(even){
+      transform: skewX(25deg) translateX(15px);
+    }
+
+    .menu > li:hover .submenu li:nth-child(odd){
+      transform: skewX(-25deg) translateX(-15px);
+    }

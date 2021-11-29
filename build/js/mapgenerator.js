@@ -41,4 +41,4 @@ d3.json('../data/commuting.json', function(err, rows){
           }
       };
       TESTER = document.getElementById('tester');
-Plotly.newPlot( TESTER, , data, layout, {showLink: false});
+Plotly.newPlot( TESTER , data, layout, {showLink: false})
