@@ -4,13 +4,14 @@ let buttons = Array.from(document.getElementsByClassName("dataset"));
 buttons.forEach(function(el) {
   if(el.checked == true){
     data = el.value + ".json"
+    console.log(el.value)
   }
 });
 
 
 
 
-d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
+/*d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) { return row[key]; });
       }
@@ -45,4 +46,4 @@ d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
       };
 
       Plotly.newPlot("myDiv", data, layout, {showLink: false});
-});
+});*/
