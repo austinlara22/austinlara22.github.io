@@ -4,46 +4,82 @@ let buttons = Array.from(document.getElementsByClassName("dataset"));
 buttons.forEach(function(el) {
   if(el.checked == true){
     data = el.value + ".json"
-    console.log(el.value)
+    d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
+          function unpack(rows, key) {
+              return rows.map(function(row) { return row[key]; });
+          }
+
+          var data = [{
+              type: 'choropleth',
+              locationmode: 'geojson-id',
+              locations: unpack(rows, "fips"),
+              featureidkey: "properties.boro_cd",
+              geojson: "https://austinlara22.github.io/data/Community Districts.geojson",
+              z: unpack(rows, 'data'),
+              text: unpack(rows, 'location'),
+              zmin: 0,
+              zmax: 0.4,
+              colorscale: [
+                  [0, 'rgb(242,240,247)'], [0.2, 'rgb(218,218,235)'],
+                  [0.4, 'rgb(188,189,220)'], [0.6, 'rgb(158,154,200)'],
+                  [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
+              ],
+              colorbar: {
+                  title: 'Percent',
+                  thickness: 0.2
+              }
+          }];
+
+
+          var layout = {
+              title: 'Perecent of Population with commutes to work over 1 hour',
+              geo:{
+                  fitbounds: "geojson",
+              }
+          };
+
+          Plotly.newPlot("myDiv", data, layout, {showLink: false});
+    });
+
   }
 });
-
-
-
-
-/*d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
-      function unpack(rows, key) {
-          return rows.map(function(row) { return row[key]; });
-      }
-
-      var data = [{
-          type: 'choropleth',
-          locationmode: 'geojson-id',
-          locations: unpack(rows, "fips"),
-          featureidkey: "properties.boro_cd",
-          geojson: "https://austinlara22.github.io/data/Community Districts.geojson",
-          z: unpack(rows, 'data'),
-          text: unpack(rows, 'location'),
-          zmin: 0,
-          zmax: 0.4,
-          colorscale: [
-              [0, 'rgb(242,240,247)'], [0.2, 'rgb(218,218,235)'],
-              [0.4, 'rgb(188,189,220)'], [0.6, 'rgb(158,154,200)'],
-              [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
-          ],
-          colorbar: {
-              title: 'Percent',
-              thickness: 0.2
+buttons.forEach(function(el) {
+  el.addEventListener('click', function(){
+    data = el.value + ".json"
+    d3.json('https://austinlara22.github.io/data/'+ data, function(err, rows){
+          function unpack(rows, key) {
+              return rows.map(function(row) { return row[key]; });
           }
-      }];
+
+          var data = [{
+              type: 'choropleth',
+              locationmode: 'geojson-id',
+              locations: unpack(rows, "fips"),
+              featureidkey: "properties.boro_cd",
+              geojson: "https://austinlara22.github.io/data/Community Districts.geojson",
+              z: unpack(rows, 'data'),
+              text: unpack(rows, 'location'),
+              zmin: 0,
+              zmax: 0.4,
+              colorscale: [
+                  [0, 'rgb(242,240,247)'], [0.2, 'rgb(218,218,235)'],
+                  [0.4, 'rgb(188,189,220)'], [0.6, 'rgb(158,154,200)'],
+                  [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
+              ],
+              colorbar: {
+                  title: 'Percent',
+                  thickness: 0.2
+              }
+          }];
 
 
-      var layout = {
-          title: 'Perecent of Population with commutes to work over 1 hour',
-          geo:{
-              fitbounds: "geojson",
-          }
-      };
-
-      Plotly.newPlot("myDiv", data, layout, {showLink: false});
-});*/
+          var layout = {
+              title: 'Perecent of Population with commutes to work over 1 hour',
+              geo:{
+                  fitbounds: "geojson",
+              }
+          };
+          Plotly.react("myDiv", data, layout, {showLink: false});
+    });
+  })
+});
