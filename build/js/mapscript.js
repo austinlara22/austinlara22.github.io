@@ -113,7 +113,7 @@ buttons.forEach(function(el, index) {
                   [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
               ],
               colorbar: {
-                  title: 'Percent',
+                  title: colorNames[index],
                   thickness: 15
               }
           }];
