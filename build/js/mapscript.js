@@ -53,9 +53,19 @@ let titleNames = ["Median household income by neighborhood",
                   "Percent of population with commutes to work over 1 hour",
                   "Mean Score for Math Tests by Neighborhood",
                   "Mean Score for Reading Tests by Neighborhood",
-                  "Unemployment Rate by Neighborhoos"
+                  "Unemployment Rate by Neighborhood"
                 ];
-
+let colorNames =["Income",
+                 "Percent",
+                 "Percent",
+                 "Percent",
+                 "Variability",
+                 "Age",
+                 "Percent",
+                 "Score",
+                 "Score",
+                 "Percent"
+                ];
 let zMins =     [20000,
                  0.03,
                  0.11,
