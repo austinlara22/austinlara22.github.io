@@ -17,6 +17,9 @@
    <script src='https://cdn.plot.ly/plotly-2.6.3.min.js'></script>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
    <script src="https://cdn.plot.ly/plotly-latest.js"></script>
+   <!--[if lte IE 8]><SCRIPT src='source/excanvas.js'></script><![endif]--><SCRIPT src='../ChartNew/ChartNew.js'></script>
+   <SCRIPT src='../ChartNew//Add-ins/shapesInChart.js'></script>
+
 </head>
 <div class="containerand"></div>
 <ul class="menu cf">
@@ -190,8 +193,9 @@
 </a>
 
 
+
 <body>
-  <div id = "myDiv_01"></div>
+
 
   <table class="table table-dark">
     <thead>
@@ -211,13 +215,90 @@
            <td>14</td>
            <td>0.449</td>
          </tr>
+<tr>        <td> <canvas id="canvas_doughnut1" height="300" defCanvasHeight="300" width="300" defCanvasWidth+"300"></canvas></td></tr>
+<SCRIPT>
+
+
+var mydata1 = [
+	{
+		value : 2.0556202515944544,
+		color: "rgba(151,187,205,1)",
+		title : "data1",
+		shapesInChart : [
+			{
+				position : "RELATIVE",
+				shape : "TEXT",
+				text : dispPct,
+				x1 : 2,
+				y1 : 2,
+				textAlign : 'center',
+				textBaseline : "middle",
+				fontColor : "black",
+				fontSize : 15
+			}
+		]
+
+	},
+	{
+		value : 97.94437974840555,
+		color: "rgba(220,220,220,1)",
+		title : "data1"
+	}
+]
+
+
+
+function dispPct(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data,animPC){
+	//  alert("INIT");
+        return("$" + Math.round(4337377*animPC));
+}
+
+var crosstxt1 = {
+	animationEasing : "linear",
+	endDrawDataFunction: drawShapes,
+	graphTitle : "Median Income",
+	graphTitleFontFamily : "'Arial'",
+	graphTitleFontSize : 24,
+	graphTitleFontStyle : "bold",
+	graphTitleFontColor : "#666",
+	canvasBorders : true,
+	canvasBordersWidth : 3,
+	canvasBordersColor : "black",
+	spaceTop : 0,
+	spaceBottom : 0,
+	spaceLeft : 0,
+	spaceRight : 0,
+	startAngle : 180,
+	dynamicDisplay : true
+}
+
+function dispPct2(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data,animPC){
+        return(Math.round(animPC*data[0].value));
+}
+
+
+
+
+</SCRIPT>
+<script>
+
+window.onload = function() {
+
+var myLine = new Chart(document.getElementById("canvas_doughnut1").getContext("2d")).Doughnut(mydata1,crosstxt1);
+
+}
+
+</script>
+
          <tr>
            <th scope="row">Commuting Time</th>
            <td>0.25923</td>
            <td>31</td>
            <td>-0.089</td>
          </tr>
+         
          <tr>
+           <tr>        <td> <canvas id="canvas_doughnut1" height="300" defCanvasHeight="300" width="300" defCanvasWidth+"300"></canvas></td></tr>
            <th scope="row">Percent of Disconnected Youth</th>
            <td>0.08961</td>
            <td>44</td>
@@ -267,5 +348,5 @@
 </body>
 <p class="text-center text-muted shift" >This is my awesome, dynamically inserted footer! Data from the <a href="https://data.cccnewyork.org/data/map/66/median-incomes#66/39/6/107/62/a/a">CCC</a></p>
 
+
 </html>
-<script src="js/mapgenerator.js" defer></script>
