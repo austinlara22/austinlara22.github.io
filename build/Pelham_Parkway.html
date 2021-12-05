@@ -215,7 +215,24 @@
            <td>40</td>
            <td>-0.439</td>
          </tr>
-<tr>        <td> <canvas id="canvas_doughnut1" height="300" defCanvasHeight="300" width="300" defCanvasWidth+"300"></canvas></td></tr>
+<tr>        <td> <canvas id="canvas_doughnut3" width="300" height="300"</canvas> </td> <td> <canvas id="canvas_doughnut1" width="300" height="300"</canvas> </td><td> <canvas id="canvas_doughnut2" width="300" height="300"</canvas> </td></tr>
+  
+    
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
 <SCRIPT>
 
 
@@ -223,7 +240,7 @@ var mydata1 = [
 	{
 		value : 1.3419170157447693,
 		color: "rgba(151,187,205,1)",
-		title : "data1",
+		title : 'Pelham Parkway',
 		shapesInChart : [
 			{
 				position : "RELATIVE",
@@ -234,16 +251,26 @@ var mydata1 = [
 				textAlign : 'center',
 				textBaseline : "middle",
 				fontColor : "black",
-				fontSize : 15
-			}
+				fontSize : 10
+			},
+      {
+        position : "RELATIVE",
+        shape : "TEXT",
+        text : 'Median Income',
+        x1 : 2,
+        y1 : 1,
+        textBaseline : "middle",
+        fontColor : "black",
+        fontSize : 12
+      }
 		]
 
 	},
 	{
 		value : 98.65808298425523,
 		color: "rgba(220,220,220,1)",
-		title : "data1"
-	}
+		title : 'NYC Gross'
+	},
 ]
 
 
@@ -256,37 +283,233 @@ function dispPct(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data
 var crosstxt1 = {
 	animationEasing : "linear",
 	endDrawDataFunction: drawShapes,
-	graphTitle : "Median Income",
+	graphTitle : "Pelham Parkway vs NYC Average Gross",
 	graphTitleFontFamily : "'Arial'",
-	graphTitleFontSize : 24,
+	graphTitleFontSize : 12,
 	graphTitleFontStyle : "bold",
-	graphTitleFontColor : "#666",
+	graphTitleFontColor : "black",
 	canvasBorders : true,
 	canvasBordersWidth : 3,
 	canvasBordersColor : "black",
-	spaceTop : 0,
-	spaceBottom : 0,
-	spaceLeft : 0,
-	spaceRight : 0,
+	spaceTop : 3,
+	spaceBottom : 3,
+	spaceLeft : 3,
+	spaceRight : 3,
 	startAngle : 180,
-	dynamicDisplay : true
+	dynamicDisplay : true,
+  footNote : 'Pelham Parkway comprises 1% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+        footNoteFontSize : 10,
+        footNoteHeight: 30,
+        legend : true,
+
 }
-
-function dispPct2(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data,animPC){
-        return(Math.round(animPC*data[0].value));
-}
-
-
 
 
 </SCRIPT>
 <script>
+  function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload) {
+          oldonload();
+        }
+        func();
+      }
+    }
+  }
+  addLoadEvent(function() {
+    var ctx1 = document.getElementById("canvas_doughnut1").getContext("2d");
+    window.myDoughnut1 = new Chart(ctx1).Doughnut(mydata1,crosstxt1);
+  });
 
-window.onload = function() {
+</script>
+<SCRIPT>
 
-var myLine = new Chart(document.getElementById("canvas_doughnut1").getContext("2d")).Doughnut(mydata1,crosstxt1);
+
+var mydata2 = [
+	{
+		value : 4.9964759807598,
+		color: "rgba(151,187,205,1)",
+		title : 'Pelham Parkway and neighbours',
+		shapesInChart : [
+			{
+				position : "RELATIVE",
+				shape : "TEXT",
+				text : dispPct,
+				x1 : 2,
+				y1 : 2,
+				textAlign : 'center',
+				textBaseline : "middle",
+				fontColor : "black",
+				fontSize : 10
+			},
+      {
+        position : "RELATIVE",
+        shape : "TEXT",
+        text : 'Median Income',
+        x1 : 2,
+        y1 : 1,
+        textBaseline : "middle",
+        fontColor : "black",
+        fontSize : 12
+      }
+		]
+
+	},
+	{
+		value : 95.0035240192402,
+		color: "rgba(220,220,220,1)",
+		title : 'NYC Gross'
+	},
+]
+
+
+
+function dispPct(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data,animPC){
+	//  alert("INIT");
+        return("$" + Math.round(4337377*animPC));
+}
+
+var crosstxt2 = {
+	animationEasing : "linear",
+	endDrawDataFunction: drawShapes,
+	graphTitle : "Pelham Parkway and neighbours vs NYC Gross",
+	graphTitleFontFamily : "'Arial'",
+	graphTitleFontSize : 12,
+	graphTitleFontStyle : "bold",
+	graphTitleFontColor : "black",
+	canvasBorders : true,
+	canvasBordersWidth : 3,
+	canvasBordersColor : "black",
+	spaceTop : 3,
+	spaceBottom : 3,
+	spaceLeft : 3,
+	spaceRight : 3,
+	startAngle : 180,
+	dynamicDisplay : true,
+  footNote : 'Pelham Parkway comprises 1% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+        footNoteFontSize : 10,
+        footNoteHeight: 30,
+        legend : true,
 
 }
+
+
+</SCRIPT>
+<script>
+  function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload) {
+          oldonload();
+        }
+        func();
+      }
+    }
+  }
+  addLoadEvent(function() {
+    var ctx2 = document.getElementById("canvas_doughnut2").getContext("2d");
+    window.myDoughnut2 = new Chart(ctx2).Doughnut(mydata2,crosstxt2);
+  });
+
+</script>
+<SCRIPT>
+
+
+var mydata3 = [
+	{
+		value : 44.188341760427576,
+		color: "rgba(151,187,205,1)",
+		title : 'Pelham Parkway',
+		shapesInChart : [
+			{
+				position : "RELATIVE",
+				shape : "TEXT",
+				text : dispPct,
+				x1 : 2,
+				y1 : 2,
+				textAlign : 'center',
+				textBaseline : "middle",
+				fontColor : "black",
+				fontSize : 10
+			},
+      {
+        position : "RELATIVE",
+        shape : "TEXT",
+        text : 'Median Income',
+        x1 : 2,
+        y1 : 1,
+        textBaseline : "middle",
+        fontColor : "black",
+        fontSize : 12
+      }
+		]
+
+	},
+	{
+		value : 55.811658239572424,
+		color: "rgba(220,220,220,1)",
+		title : 'NYC Average'
+	},
+]
+
+
+
+function dispPct(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data,animPC){
+	//  alert("INIT");
+        return("$" + Math.round(73514*animPC));
+}
+
+var crosstxt3 = {
+	animationEasing : "linear",
+	endDrawDataFunction: drawShapes,
+	graphTitle : "Pelham Parkway vs NYC Median",
+	graphTitleFontFamily : "'Arial'",
+	graphTitleFontSize : 12,
+	graphTitleFontStyle : "bold",
+	graphTitleFontColor : "black",
+	canvasBorders : true,
+	canvasBordersWidth : 3,
+	canvasBordersColor : "black",
+	spaceTop : 3,
+	spaceBottom : 3,
+	spaceLeft : 3,
+	spaceRight : 3,
+	startAngle : 180,
+	dynamicDisplay : true,
+  footNote : 'Pelham Parkway comprises 1% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+        footNoteFontSize : 10,
+        footNoteHeight: 30,
+        legend : true,
+
+}
+
+
+</SCRIPT>
+<script>
+  function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload) {
+          oldonload();
+        }
+        func();
+      }
+    }
+  }
+  addLoadEvent(function() {
+    var ctx3 = document.getElementById("canvas_doughnut3").getContext("2d");
+    window.myDoughnut3 = new Chart(ctx3).Doughnut(mydata3,crosstxt3);
+  });
 
 </script>
 
@@ -296,9 +519,8 @@ var myLine = new Chart(document.getElementById("canvas_doughnut1").getContext("2
            <td>25</td>
            <td>-0.049</td>
          </tr>
-         
+
          <tr>
-           <tr>        <td> <canvas id="canvas_doughnut1" height="300" defCanvasHeight="300" width="300" defCanvasWidth+"300"></canvas></td></tr>
            <th scope="row">Percent of Disconnected Youth</th>
            <td>0.1554</td>
            <td>15</td>
