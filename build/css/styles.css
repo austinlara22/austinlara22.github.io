@@ -54,8 +54,17 @@ left: 50%;
  .container2 {
    background-color: rgb(185,185,185);
      width: 2300px;
-     height:1450px;
+     height:2600px;
      z-index:-20000;
+     margin-top:-1800px;
+     position:relative;
+ }
+ .containerx {
+   background-color: green;
+     width: 2300px;
+     height:2300px;
+     z-index:-20000;
+     margin-top:-1300px;
      position:relative;
  }
  .tiles{

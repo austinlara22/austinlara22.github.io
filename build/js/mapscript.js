@@ -56,15 +56,15 @@ let titleNames = ["Median household income by neighborhood",
                   "Unemployment Rate by Neighborhood"
                 ];
 let colorNames =["Income",
-                 "Percent",
-                 "Percent",
-                 "Percent",
+                 "Proportion",
+                 "Proportion",
+                 "Proportion",
                  "Variability",
                  "Age",
-                 "Percent",
+                 "Proportion",
                  "Score",
                  "Score",
-                 "Percent"
+                 "Proportion"
                 ];
 let zMins =     [20000,
                  0.03,
