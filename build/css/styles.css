@@ -136,12 +136,12 @@ dl {
 
 .carousel-inner{
   background-image:rgb(213,213,213);
-
+  text-color: white;
 
 }
 .carousel-control{
-  height:1100px;
-  width:30px;
+  height:250px;
+  width:-500px;
 }
 .about{
 font-size:50px;
@@ -156,7 +156,9 @@ font-size:50px;
   margin-left:740px;
   width: 400px;
   font-family: 'Shippori Antique', sans-serif;
-  color: gray;
+  color: white;
+  text-color: white;
+
 }
 .carousel .item {
 
@@ -184,6 +186,7 @@ p{
 body {background-color: rgb(213,213,213);
   font-family: 'Shippori Antique B1', sans-serif;
 overflow-x: hidden;
+
           }
 h1, h2, h3, h4, h5, h6 {
               font-family: 'Shippori Antique', sans-serif;
@@ -410,6 +413,7 @@ h1, h2, h3, h4, h5, h6 {
       float: left;
       position: relative;
       transform: skewX(25deg);
+      z-index:100;
     }
 
     .menu a {
@@ -418,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
       text-transform: uppercase;
       text-decoration: none;
       font-size: 12px; /*text size*/
-
+      z-index:100;
     }
 
     .menu li:hover {
@@ -430,6 +434,7 @@ h1, h2, h3, h4, h5, h6 {
       transform: skewX(-25deg);
       padding: 1em 2em;
       font-size: 16px; /*menu texts ize*/
+      z-index: 100;
 
     }
 
@@ -446,6 +451,7 @@ h1, h2, h3, h4, h5, h6 {
       background-color: rgb(98,161,0); /*submenu bg*/
       position: relative;
       overflow: hidden;
+      z-index: 100;
     }
 
     .submenu > li > a {

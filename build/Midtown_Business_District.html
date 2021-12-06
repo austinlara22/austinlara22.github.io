@@ -197,7 +197,7 @@
 <body>
 
 
-  <table class="table table-dark">
+  <table class="table table-dark" style= "margin-top:30px">
     <thead>
       <tr>
         <th scope="col">Midtown Business District At a Glance:</th>
@@ -215,11 +215,12 @@
            <td>7</td>
            <td>1.341</td>
          </tr>
-<tr>        <td> <canvas id="canvas_doughnut3" width="300" height="300"</canvas> </td> <td> <canvas id="canvas_doughnut1" width="300" height="300"</canvas> </td><td> <canvas id="canvas_doughnut2" width="300" height="300"</canvas> </td></tr>
+<tr>        <td> <canvas id="canvas_doughnut3" width="460" height="450"</canvas></td> <td> <canvas id="canvas_doughnut1" width="460" height="450"</canvas> </td><td> <canvas id="canvas_doughnut2" width="460" height="450"</canvas> </td></tr>
   
     
 
      
+
 
 
 
@@ -253,16 +254,16 @@ var mydata1 = [
 				fontColor : "black",
 				fontSize : 10
 			},
-      {
+    /*  {
         position : "RELATIVE",
         shape : "TEXT",
         text : 'Median Income',
-        x1 : 2,
+        x1 : .5,
         y1 : 1,
         textBaseline : "middle",
         fontColor : "black",
-        fontSize : 12
-      }
+        fontSize : 8
+      }*/
 		]
 
 	},
@@ -291,13 +292,14 @@ var crosstxt1 = {
 	canvasBorders : true,
 	canvasBordersWidth : 3,
 	canvasBordersColor : "black",
-	spaceTop : 3,
-	spaceBottom : 3,
+	spaceTop : 13,
+	spaceBottom : 13,
 	spaceLeft : 3,
 	spaceRight : 3,
+	animationDuration: 1000000,
 	startAngle : 180,
 	dynamicDisplay : true,
-  footNote : 'Midtown Business District comprises 3% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+  footNote : 'Midtown Business District comprises 2.8% of gross NYC income. In an equitable model, this number is 1.7%',
         footNoteFontSize : 10,
         footNoteHeight: 30,
         legend : true,
@@ -333,7 +335,7 @@ var mydata2 = [
 	{
 		value : 9.486931848442042,
 		color: "rgba(151,187,205,1)",
-		title : 'Midtown Business District and neighbours',
+		title : 'Midtown Business District region',
 		shapesInChart : [
 			{
 				position : "RELATIVE",
@@ -346,16 +348,16 @@ var mydata2 = [
 				fontColor : "black",
 				fontSize : 10
 			},
-      {
+    /*  {
         position : "RELATIVE",
         shape : "TEXT",
         text : 'Median Income',
-        x1 : 2,
+        x1 : .5,
         y1 : 1,
         textBaseline : "middle",
         fontColor : "black",
-        fontSize : 12
-      }
+        fontSize : 8
+      }*/
 		]
 
 	},
@@ -376,7 +378,7 @@ function dispPct(numtxt,valtxt,ctx,config,posX,posY,borderX,borderY,overlay,data
 var crosstxt2 = {
 	animationEasing : "linear",
 	endDrawDataFunction: drawShapes,
-	graphTitle : "Midtown Business District and neighbours vs NYC Gross",
+	graphTitle : "Midtown Business District and 2 closest neighbours (region) vs NYC Gross",
 	graphTitleFontFamily : "'Arial'",
 	graphTitleFontSize : 12,
 	graphTitleFontStyle : "bold",
@@ -384,13 +386,14 @@ var crosstxt2 = {
 	canvasBorders : true,
 	canvasBordersWidth : 3,
 	canvasBordersColor : "black",
-	spaceTop : 3,
-	spaceBottom : 3,
+	spaceTop : 13,
+	spaceBottom : 13,
 	spaceLeft : 3,
 	spaceRight : 3,
+	animationDuration: 1000000,
 	startAngle : 180,
 	dynamicDisplay : true,
-  footNote : 'Midtown Business District comprises 3% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+  footNote : 'Region comprises 9.5% of gross NYC income. In an equitable model, this number is 5.1%',
         footNoteFontSize : 10,
         footNoteHeight: 30,
         legend : true,
@@ -439,16 +442,16 @@ var mydata3 = [
 				fontColor : "black",
 				fontSize : 10
 			},
-      {
+    /*  {
         position : "RELATIVE",
         shape : "TEXT",
         text : 'Median Income',
-        x1 : 2,
+        x1 : .5,
         y1 : 1,
         textBaseline : "middle",
         fontColor : "black",
-        fontSize : 12
-      }
+        fontSize : 8
+      }*/
 		]
 
 	},
@@ -477,13 +480,14 @@ var crosstxt3 = {
 	canvasBorders : true,
 	canvasBordersWidth : 3,
 	canvasBordersColor : "black",
-	spaceTop : 3,
-	spaceBottom : 3,
+	spaceTop : 13,
+	spaceBottom : 13,
 	spaceLeft : 3,
 	spaceRight : 3,
+	animationDuration: 1000000,
 	startAngle : 180,
 	dynamicDisplay : true,
-  footNote : 'Midtown Business District comprises 3% of gross NYC income. In an equitable model, this number should be 1.7% hi',
+  footNote : 'The median Income in Midtown Business District is 1.65 times the macro avg',
         footNoteFontSize : 10,
         footNoteHeight: 30,
         legend : true,
@@ -526,6 +530,7 @@ var crosstxt3 = {
            <td>57</td>
            <td>-1.662</td>
          </tr>
+
          <tr>
            <th scope="row">Percent of people who obtained a Bachelor's degree of higher</th>
            <td>0.74091</td>
@@ -566,9 +571,9 @@ var crosstxt3 = {
 
        </tbody>
   </table>
+  <p class="text-center text-muted shift" >This is my awesome, dynamically inserted footer! Data from the <a href="https://data.cccnewyork.org/data/map/66/median-incomes#66/39/6/107/62/a/a">CCC</a></p>
 
 </body>
-<p class="text-center text-muted shift" >This is my awesome, dynamically inserted footer! Data from the <a href="https://data.cccnewyork.org/data/map/66/median-incomes#66/39/6/107/62/a/a">CCC</a></p>
 
 
 </html>
