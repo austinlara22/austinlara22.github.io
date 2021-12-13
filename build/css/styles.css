@@ -54,7 +54,7 @@ left: 50%;
  .container2 {
    background-color: rgb(185,185,185);
      width: 2300px;
-     height:2600px;
+     height:2800px;
      z-index:-20000;
      margin-top:-1800px;
      position:relative;
